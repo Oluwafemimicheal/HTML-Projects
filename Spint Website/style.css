@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    font-weight: normal;
+    position: relative;
+    font-size: 13px;
+    color: #333333;
+    font-family: Helvetica, sans-serif;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.heading {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.heading h4 {
+    font-size: 26px;
+    color: #101010;
+    margin: 0 0 20px;
+}
+
+.heading p {
+    font-size: 15px;
+    color: #989898;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 65px;
+    box-shadow: 0 0 4px 0 #a5a5a5;
+}
+
+header .logo h1 {
+    color: #000;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    z-index: 999;
+}
+
+header nav button {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    padding: 10px 0;
+    border: 2px solid transparent;
+    transition: 0.3s linear;
+}
+
+header nav li a {
+    color: #333333;
+}
+
+header nav li:hover {
+    border-bottom: 2px solid black;
+}
+
+
+/* section-banner */
+
+.home {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+}
+
+.home h1 {
+    text-transform: uppercase;
+    font-size: 42px;
+}
+
+.home p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+/* section about */
+
+.about-us .heading {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.about-us ul {
+    margin-top: 50px;
+    padding: 0 30px;
+}
+
+.about-us ul li h6 {
+    font-size: 16px;
+    color: #101010;
+    margin: 10px 0;
+}
+
+.about-us ul li p {
+    font-size: 13px;
+    color: #989898;
+    line-height: 2;
+}
