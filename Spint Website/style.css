@@ -335,13 +335,15 @@ header nav li:hover {
     font-size: 12px;
 }
 
-.latest-work .text {
+.latest-work .text,
+.blog .text {
     height: 60vh;
     background: url('./assets/image/about-img-3.jpg') no-repeat;
     background-size: 100%;
 }
 
-.latest-work .text span {
+.latest-work .text span,
+.blog .text span {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -370,11 +372,11 @@ header nav li:hover {
     margin-left: 100px;
 }
 
-.blog-container .blog-section .blog-detail .text {
+.blog-container .blog-section .blog-detail .blog-text {
     margin-top: 40px;
 }
 
-.blog-container .blog-section .blog-detail .text h4 {
+.blog-container .blog-section .blog-detail .blog-text h4 {
     margin: 15px 0;
     font-size: 22px;
     font-weight: 100;
