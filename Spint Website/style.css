@@ -265,6 +265,10 @@ header nav li:hover {
 
 /* section latest-work */
 
+.latest-work {
+    position: relative;
+}
+
 .latest-work ul {
     margin: 80px 0 40px 0;
     display: flex;
@@ -323,9 +327,26 @@ header nav li:hover {
     font-size: 22px;
 }
 
-.latest-work .view-works a {
+.latest-work .view-works a,
+.text a {
     padding: 13px 30px;
     background-color: #333333;
     color: white;
     font-size: 12px;
+}
+
+.latest-work .text {
+    height: 60vh;
+    background: url('./assets/image/about-img-3.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.latest-work .text span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 60vh;
+    background-color: rgba(0, 0, 0, 0.897);
+    text-align: center;
 }
