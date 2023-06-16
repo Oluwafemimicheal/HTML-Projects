@@ -350,3 +350,64 @@ header nav li:hover {
     background-color: rgba(0, 0, 0, 0.897);
     text-align: center;
 }
+
+
+/* section blog */
+
+.blog-container {
+    margin: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.blog-container .blog-section {
+    position: relative;
+    width: 550px;
+}
+
+.blog-container .blog-section .blog-detail {
+    margin-left: 100px;
+}
+
+.blog-container .blog-section .blog-detail .text {
+    margin-top: 40px;
+}
+
+.blog-container .blog-section .blog-detail .text h4 {
+    margin: 15px 0;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.blog-container .blog-section .blog-image {
+    width: 350px;
+    height: 250px;
+    border: 1px solid rgb(228, 228, 228);
+    background-color: #333333;
+}
+
+.blog-container .blog-section .blog-image img {
+    margin: 20px 0 0 20px;
+}
+
+.blog-container .blog-section .blog-date {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 80px;
+    height: 100px;
+    background-color: #333333;
+    overflow: hidden;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.blog-container .blog-section .blog-date img {
+    width: 80%;
+}
