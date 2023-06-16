@@ -413,3 +413,7 @@ header nav li:hover {
 .blog-container .blog-section .blog-date img {
     width: 80%;
 }
+
+.blog .text {
+    margin-top: -50px;
+}
