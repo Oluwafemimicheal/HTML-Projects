@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spint</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type='text/css' href="style.css">
+    <link rel="stylesheet" type="'text/css" href="./css/slick.css">
+    <link rel="stylesheet" type="'text/css" href="./css/slick-theme.css">
     <script src="index.js" defer></script>
 </head>
 
@@ -258,10 +260,33 @@
             </div>
         </section>
         <section class="testimony">
-
+            <div class="slider">
+                <div class="slide">
+                    <img src="./assets/image/about-img-2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/image/about-img-2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/image/about-img-2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/image/about-img-2.jpg" alt="">
+                </div>
+            </div>
         </section>
     </main>
     <footer></footer>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script>
+        $('.slider').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3
+        });
+    </script>
+
 </body>
 
 </html>
