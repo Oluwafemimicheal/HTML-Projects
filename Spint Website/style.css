@@ -417,3 +417,12 @@ header nav li:hover {
 .blog .text {
     margin-top: -50px;
 }
+
+
+/* section testimony */
+
+.testimony .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
